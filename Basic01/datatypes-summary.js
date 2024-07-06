@@ -32,6 +32,18 @@ const bigNumer = 7646798764567645n // n lagane se it will be bigint
 
 const heros = ["captain america" , "ironman" , "superman"] // Array
 
-{
-    name : ""
+
+//Object
+let myObj = {
+    name:"Ananya",
+    age:20,
+}  
+
+// Function
+const myFunction = function () {
+    console.log ("Hello World!")
 }
+
+
+console.log(typeof bigNumber); // shows type
+console.log(typeof myFunction); // type is function
