@@ -16,6 +16,8 @@ console.log(rate.toPrecision(5));//4125.4
  const zeros = 100000000
  console.log(zeros.toLocaleString());// 100,000,000 (It is in US standards by default)
  //To make it a result in Indian Standard the code is>>
+
+ 
  console.log(zeros.toLocaleString('en-IN'));// 10,00,00,000
 
 // MATH
