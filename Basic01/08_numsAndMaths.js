@@ -4,11 +4,16 @@ console.log(score);
 const balance = new Number(100)
 console.log(balance);
 
-// There can be som prototype methods which can be immplememnted with th number like the way we can do in string.
+/* There can be some prototype methods which can be immplememnted with the number like the way 
+ we can do in string. D1 */
 
-console.log(balance.toString()); // 100(It is a string.)
+console.log(balance.toString()); // 100(Type is a string.)
 
-console.log(balance.toFixed(2));// 100.00
+console.log(balance.toString().length) // Here length will be 3 becoz 100 has 3 letters.
+
+console.log(balance.toFixed(2));// 100.00 
+/* We have to give a property after to.fixed means a number if we put 2 then two 0 will be add after that number
+if we put 3 then it will add 3 zeroes. */
 
 const rate = 4125.45
 console.log(rate.toPrecision(5));//4125.4
