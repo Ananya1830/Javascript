@@ -4,8 +4,8 @@ console.log(score);
 const balance = new Number(100)
 console.log(balance);
 
-/* There can be some prototype methods which can be immplememnted with the number like the way 
- we can do in string. D1 */
+/* There can be some prototype methods which can be immplememnted with the number like 
+the way we can do in string. D1 */
 
 console.log(balance.toString()); // 100(Type is a string.)
 
