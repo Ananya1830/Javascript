@@ -54,3 +54,15 @@ console.log(newDate); // 2024-07-20T18:22:12.012Z
 console.log(newDate.getMonth()); // only give month and month will start from 0
 console.log(newDate.getMonth() + 1); // +1 krne se we will get exact month will not start from 0
 console.log(newDate.getHours()); //23
+
+ // `${newDate.getMonth()} and the time `
+
+
+
+ // .tolocaleString() method is a type of method where we can actually customize our out as per our need.
+
+let updatedTimeStamp = newDate.toLocaleString('default', {
+    weekday:"long"
+})
+
+console.log(updatedTimeStamp); // Saturday
