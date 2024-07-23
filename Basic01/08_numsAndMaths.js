@@ -5,7 +5,7 @@ const balance = new Number(100)
 console.log(balance);
 
 /* There can be some prototype methods which can be immplememnted with the number like 
-the way we can do in string. D1 */
+the way we can do in string.  */
 
 console.log(balance.toString()); // 100(Type is a string.)
 
