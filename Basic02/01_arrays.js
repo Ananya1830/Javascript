@@ -42,3 +42,35 @@ console.log(myArr2.indexOf(30)); // 2
 in the parameter is present in the array otherwise it gives the out as -1 which is false */
 console.log(myArr2.indexOf(69)); // -1
 
+
+const newArr = myArr2.join()
+console.log(myArr2); // [ 1, 18, 30, 77, 81 ]
+console.log(newArr); // 1,18,30,77,81 
+// .join() method turns the existing elements of the array into string-distinguished
+
+console.log(typeof myArr2); // it is object
+console.log(typeof newArr); // But it will now changed to string
+
+
+//Slice method
+let array = [4,5,89,7,3,9]
+console.log("A " , array); //A  [ 4, 5, 89, 7, 3, 9 ]
+
+let slicearr = array.slice(1,3);
+console.log(slicearr); //[ 5, 89 ]
+console.log("B ",array)// B  [ 4, 5, 89, 7, 3, 9 ]
+/* The slice method detaches the particular element as mentioned in the parameter as range and does not 
+include the last range. The slice() method does not manipulate the original array as well. */
+
+
+// Splice
+let array2 = [14,75,7,45,9,8]
+console.log("A ", array2); // A  [ 14, 75, 7, 45, 9, 8 ]
+
+let splicearr = array2.splice(1,3)
+console.log(splicearr); // [ 75, 7, 45 ]
+ 
+console.log("B ",array2); // B  [ 14, 9, 8 ]
+/* The splice method also detaches particular elements as mentioned in the parameter as range and it 
+does include the last range. The splice() method manipulates the original array as well by cutting off 
+the elements that are mentioned in the parameter. */
