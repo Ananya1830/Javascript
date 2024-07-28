@@ -5,7 +5,7 @@ marvelHeros.push(dcHeros);
 // ['Captain America', 'Ironman', 'Spiderman' , ['Batman','Superman', 'Flash']]
 
 console.log(marvelHeros); 
-/* Arrays can take any type of entry data here it took array as a data that array is a 
+/* Arrays can take any kind of entry data here it took array as a data that array is a 
 single element.
 Here "Captain America", "Ironman", "Spiderman" are 3 elements and dcHeroes 
 ["Batman", "Superman", "Flash"] all are one element means 4 element.
@@ -22,7 +22,7 @@ console.log(allHeros);
 
 const allNewHeros = [...marvelHeros , ...dcHeros]
 console.log(allNewHeros);
-// // This is called as the spread operator , between spread and concat ,
+// This is called as the spread operator , between spread and concat ,
 // spread operator is prefer to use because it can make the elements of arrays individual.
 
 
