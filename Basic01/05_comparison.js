@@ -29,5 +29,5 @@ console.log(undefined < 0); // false
 console.log("2" === 2); // [It will not convert]
 
 
-// In == string will be converted in a number but in === it will not .
-// Comparison and conversion acts differently
+// In == string will be converted in a number but in === it will not.
+// Comparison and conversion acts differently.
