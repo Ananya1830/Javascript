@@ -61,4 +61,12 @@ console.log(Math.cbrt(64)); // 4
 
 
 
-// 
+// The Math.max() static method returns the largest of the numbers given as input parameters.
+
+console.log(Math.max(1, 3, 2)); // 3
+console.log(Math.max(-1, -3, -2)); // -1
+console.log(Math.max()); // -Infinity
+//  If no arguments are given, the result is -Infinity.
+
+const array1 = [1, 3, 2];
+console.log(Math.max(...array1)); // 3
