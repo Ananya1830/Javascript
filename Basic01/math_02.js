@@ -52,6 +52,7 @@ console.log(Math.trunc(-0.123)); // -0
 
 
 
+
 // The Math.cbrt() static method returns the cube root of a number.
 
 console.log(Math.cbrt(-1)); // -1
@@ -61,12 +62,36 @@ console.log(Math.cbrt(64)); // 4
 
 
 
+
 // The Math.max() static method returns the largest of the numbers given as input parameters.
 
-console.log(Math.max(1, 3, 2)); // 3
+console.log(Math.max(1, 3, 2 , 7 ,9 , 5)); // 9
 console.log(Math.max(-1, -3, -2)); // -1
+
 console.log(Math.max()); // -Infinity
 //  If no arguments are given, the result is -Infinity.
 
+console.log(3 , 6 , 'a' , ); // Output: NaN
+// // If any argument cannot be converted to a number, the result is NaN (Not a Number).
+
 const array1 = [1, 3, 2];
 console.log(Math.max(...array1)); // 3
+
+
+
+
+// The Math.min() static method returns the smallest of the numbers given as input parameters.
+
+console.log(Math.min(2, 3, 5, 4, 6)); // 2
+console.log(Math.min(-4, -6, -3 , -2 , -7)); // -7
+
+const array2 = [2, 3, 1, 4, 6];
+console.log(Math.min(...array2)); // 1
+
+console.log(Math.min()); // -Infinity
+//  If no arguments are given, the result is -Infinity.
+
+
+
+
+//
