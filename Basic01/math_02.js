@@ -71,7 +71,7 @@ console.log(Math.max(-1, -3, -2)); // -1
 console.log(Math.max()); // -Infinity
 //  If no arguments are given, the result is -Infinity.
 
-console.log(3 , 6 , 'a' , ); // Output: NaN
+console.log(Math.max(3 , 6 , 'a' , 6 )); // Output: NaN
 // // If any argument cannot be converted to a number, the result is NaN (Not a Number).
 
 const array1 = [1, 3, 2];
@@ -87,6 +87,10 @@ console.log(Math.min(-4, -6, -3 , -2 , -7)); // -7
 
 const array2 = [2, 3, 1, 4, 6];
 console.log(Math.min(...array2)); // 1
+
+console.log(3 , 6 , 'a' , ); // Output: NaN
+// // If any argument cannot be converted to a number, the result is NaN (Not a Number).
+
 
 console.log(Math.min()); // -Infinity
 //  If no arguments are given, the result is -Infinity.
