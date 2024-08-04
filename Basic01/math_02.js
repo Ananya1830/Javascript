@@ -82,13 +82,13 @@ console.log(Math.max(...array1)); // 3
 
 // The Math.min() static method returns the smallest of the numbers given as input parameters.
 
-console.log(Math.min(2, 3, 5, 4, 6)); // 2
+console.log(Math.min(2, 3, 5, 4, 6 , 1)); // 1
 console.log(Math.min(-4, -6, -3 , -2 , -7)); // -7
 
 const array2 = [2, 3, 1, 4, 6];
 console.log(Math.min(...array2)); // 1
 
-console.log(3 , 6 , 'a' , ); // Output: NaN
+console.log(Math.min(3 , 6 , 'a' )); // Output: NaN
 // // If any argument cannot be converted to a number, the result is NaN (Not a Number).
 
 
