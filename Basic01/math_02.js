@@ -1,7 +1,6 @@
-/*  Math.abs() is a method used to return the absolute value of a number. 
-The absolute value of a number is its non-negative value without regard to its sign. 
-In other words, it converts negative numbers to positive numbers and leaves
-positive numbers and zero unchanged. */
+/*  Math.abs() is a method used to return the absolute value of a number. The absolute value of a number is 
+its non-negative value without regard to its sign. In other words, it converts negative numbers to positive 
+numbers and leaves positive numbers and zero unchanged. */
 
 console.log(Math.abs(-5));   // 5
 console.log(Math.abs(5));    // 5
