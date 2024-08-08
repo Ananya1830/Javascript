@@ -107,5 +107,28 @@ console.log(Math.exp(2)); // 7.38905609893065
 
 
 
-// 
+// The Math.sqrt() static method returns the square root of a number.
+console.log(Math.sqrt(25)); // 5
 
+function calcHypotenuse(a, b) {
+    return Math.sqrt(a * a + b * b);
+  }
+  console.log(calcHypotenuse(3, 4)); // 5
+  // For a right triangle with sides 3 and 4, the hypotenuse is √(3^2 + 4^2) = √(9 + 16) = √25 = 5
+
+
+
+
+
+// The Math.pow() static method returns the value of a base raised to a power. 
+console.log(Math.pow(7, 3)); // 343
+
+
+
+/* The Math.sign() static method returns 1 or -1, indicating the sign of the number passed as argument.
+If the input is 0 or -0, it will be returned as-is. */
+
+console.log(Math.sign(3)); // 1
+console.log(Math.sign(-3)); // -1
+console.log(Math.sign(0)); // 0
+console.log(Math.sign('-3')); // -1
