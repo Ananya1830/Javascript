@@ -66,3 +66,5 @@ let updatedTimeStamp = newDate.toLocaleString('default', {
 })
 
 console.log(updatedTimeStamp); // Saturday
+
+
