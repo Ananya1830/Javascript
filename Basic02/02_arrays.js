@@ -26,3 +26,8 @@ console.log(allNewHeros);
 // spread operator is prefer to use because it can make the elements of arrays individual.
 
 
+
+const months = ['March', 'Jan', 'Feb', 'Dec'];
+months.sort();
+console.log(months);
+// Array ["Dec", "Feb", "Jan", "March"]
