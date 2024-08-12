@@ -27,7 +27,7 @@ console.log(allNewHeros);
 
 
 
-const months = ['March', 'Jan', 'Feb', 'Dec'];
+const months = ['March', 'Jan', 'Feb', 'Dec', 'July'];
 months.sort();
 console.log(months);
-// Array ["Dec", "Feb", "Jan", "March"]
+// Array ["Dec", "Feb", "Jan", "March" , 'July']
