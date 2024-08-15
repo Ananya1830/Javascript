@@ -90,7 +90,45 @@ console.log(fruits.includes("banana", 2)); // false
 // flat
 /* The array.flat() method in JavaScript is used to flatten an array, meaning it reduces 
 the nesting of arrays within an array to a single level or to a specified depth. */
-
 const array04 = [1, 2, [3, 4], [5, 6], 7];
-console.log(array04.flat());
+console.log(array04.flat()); // [1,2,3,4,5,6,7]
 
+const array05 = [1, [2, [3, [4, [5]]]]]
+console.log(array05.flat(2)); // [ 1, 2, 3, [ 4, [ 5 ] ] ]
+
+
+
+// findIndex
+/* The findIndex() method of Array instances returns the index of the first element in an 
+array that satisfies the provided testing function. If no elements satisfy the testing 
+function, -1 is returned. */
+
+const array1 = [5, 32, 8, 130, 44];
+const newElement = (element) => element > 100;
+console.log(array1.findIndex(newElement)); // 3 (becoz 130 is greater than 100)
+
+const newElement2 = (element) => element < 2;
+console.log(array1.findIndex(newElement2)); // -1
+
+
+
+// fill
+/* The fill() method of Array instances changes all elements within a range of indices 
+in an array to a static value. It returns the modified array. */
+
+const array06 = [1, 2, 3, 4];
+// Fill with 0 from position 2 until position 4
+console.log(array06.fill(0, 2, 4)); // [1, 2, 0, 0]
+
+// Fill with 5 from position 1
+console.log(array06.fill(5, 1)); // [1, 5, 5, 5]
+
+console.log(array06.fill(6)); // [6, 6, 6, 6]
+
+
+
+// toLocaleString
+
+
+
+// 
