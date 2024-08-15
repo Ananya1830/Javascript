@@ -88,3 +88,9 @@ console.log(fruits.includes("banana", 2)); // false
 
 
 // flat
+/* The array.flat() method in JavaScript is used to flatten an array, meaning it reduces 
+the nesting of arrays within an array to a single level or to a specified depth. */
+
+const array04 = [1, 2, [3, 4], [5, 6], 7];
+console.log(array04.flat());
+

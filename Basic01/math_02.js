@@ -129,6 +129,6 @@ console.log(Math.pow(7, 3)); // 343
 If the input is 0 or -0, it will be returned as-is. */
 
 console.log(Math.sign(3)); // 1
-console.log(Math.sign(-3)); // -1
+console.log(Math.sign(-7)); // -1
 console.log(Math.sign(0)); // 0
 console.log(Math.sign('-3')); // -1
