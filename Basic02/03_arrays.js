@@ -99,9 +99,8 @@ console.log(array05.flat(2)); // [ 1, 2, 3, [ 4, [ 5 ] ] ]
 
 
 // findIndex
-/* The findIndex() method of Array instances returns the index of the first element in an 
-array that satisfies the provided testing function. If no elements satisfy the testing 
-function, -1 is returned. */
+/* The findIndex() method of Array instances returns the index of the first element in an array that satisfies
+the provided testing function. If no elements satisfy the testing function, -1 is returned. */
 
 const array1 = [5, 32, 8, 130, 44];
 const newElement = (element) => element > 100;
@@ -128,7 +127,75 @@ console.log(array06.fill(6)); // [6, 6, 6, 6]
 
 
 // toLocaleString
+/* The elements of an array into a string, separating them by a locale-specific string (usually a comma ,). 
+Each element of the array is converted to a string using its toLocaleString() method */
+
+let fruitss = ["apple", "banana", "cherry", "date"];
+
+console.log(fruitss.at(0));   // apple
+console.log(fruitss.at(1));  // banana
+console.log(fruitss.at(-1)); // data
+console.log(fruitss.at(-2)); // cherry
+// Negative indexing starts from the end of the array.
 
 
 
-// 
+
+// toString 
+// Converts an array into a string where each element is separated by a comma.
+const elementss = ["apple", "banana", 1 , 18];
+console.log(elementss.toString()); // apple,banana,1,18
+
+
+
+
+// from
+console.log(Array.from('fool')); // [ 'f', 'o', 'o', 'l' ]
+console.log(Array.from([1, 2, 3], (x) => x + x)); // [2, 4, 6]
+
+
+
+// isArray
+/* It is used to check if a given value is an array. It returns true if the value is an array,
+ and false otherwise. */
+const flowers = ['rose' , 'lily' , 'orchids']
+const evenNum = 18
+
+console.log(Array.isArray(flowers)); // true
+console.log(Array.isArray(evenNum)); // false
+
+
+
+// concat
+/* It is used to merge two or more arrays into a new array. It does not change the existing arrays 
+but returns a new array. */
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const combinedArray = arr1.concat(arr2);
+console.log(combinedArray); // [ 1, 2, 3, 4, 5, 6 ]
+
+
+
+// findLast
+/* It is used to find the last element in an array that satisfies a provided testing function. 
+It returns the value of that element, or undefined if no element passes the test. */
+const nums = [1, 2, 3, 4, 5, 6];
+const lastEven = nums.findLast(num => num % 2 === 0);
+console.log(lastEven); // 6
+
+const nums2 = [41 , 42 , 43 , 44 , 45];
+const result = nums2.findLast(num => num > 50);
+console.log(result); // undefined
+
+
+
+// findLastIndex
+/*  returns the index of the last element in an array that satisfies a provided testing function. If no elements satisfy the testing function, 
+it returns -1. */
+
+const nums3 = [31 , 32 , 33 , 34 , 35];
+const newNums3 = nums3.findLastIndex(num => num < 40)
+const newNums4 = nums3.findLastIndex(num => num > 50)
+console.log(newNums3); // 4
+console.log(newNums4); // -1
+
