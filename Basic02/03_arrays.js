@@ -199,3 +199,39 @@ const newNums4 = nums3.findLastIndex(num => num > 50)
 console.log(newNums3); // 4
 console.log(newNums4); // -1
 
+
+
+// find
+/* It is used to search for an element in an array that satisfies a provided testing function. It returns the 
+first element that matches the condition; if no element is found, it returns undefined. */
+
+const nums4 = [31 , 32 , 33 , 34 , 35];
+const newNums5 = nums4.find(num => num < 40)
+const newNums6 = nums4.find(num => num > 50)
+console.log(newNums5); // 31
+console.log(newNums6); // undefined
+
+
+
+// some
+/* checks if at least one element in an array passes a test (provided as a function). It returns true if the
+ callback function returns a truthy value for any array element; otherwise, it returns false. */
+
+ const arrayy = [1, 2, 3, 4, 5];
+// Checks whether an element is even
+const even = (element) => element % 2 === 0;
+console.log(arrayy.some(even)); // true
+
+const numb = (element) => element > 10
+console.log(arrayy.some(numb)); // false
+
+
+
+// every
+/* Whether all elements in the array pass the test implemented by the provided function. 
+It returns a Boolean value. */
+
+const newNumber = [2 , 4 , 6 , 8 , 10]
+const ansNum = (element) => element % 2 === 0; 
+console.log(newNumber.every(ansNum)); // true
+
