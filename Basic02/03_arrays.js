@@ -231,7 +231,7 @@ console.log(arrayy.some(numb)); // false
 /* Whether all elements in the array pass the test implemented by the provided function. 
 It returns a Boolean value. */
 
-const newNumber = [2 , 4 , 6 , 8 , 10]
+const newNumber = [2 , 4 , 6 , 8 , 10, 12]
 const ansNum = (element) => element % 2 === 0; 
 console.log(newNumber.every(ansNum)); // true
 
