@@ -217,7 +217,7 @@ console.log(newNums6); // undefined
 /* checks if at least one element in an array passes a test (provided as a function). It returns true if the
  callback function returns a truthy value for any array element; otherwise, it returns false. */
 
- const arrayy = [1, 2, 3, 4, 5];
+ const arrayy = [1, 2, 3, 4, 5 ,6];
 // Checks whether an element is even
 const even = (element) => element % 2 === 0;
 console.log(arrayy.some(even)); // true
