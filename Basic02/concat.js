@@ -1,4 +1,4 @@
-const marvelHeros = ["Captain America", "Ironman", "Spiderman"]
+const marvelHeros = ["Captain America", "Ironman", "Spidermann"]
 const dcHeros = ["Batman", "Superman", "Flash"]
 
 const allHeros = marvelHeros.concat(dcHeros);
