@@ -14,8 +14,8 @@ console.log(numbers.sort()); // [1, 100000, 200, 21, 30, 4, 5000 , 77,]
 
 
 //Slice method
-let array = [4, 5, 6, 7, 8, 9]
-console.log("A " , array); //A  [ 4, 5, 6, 7, 8, 9 ]
+let array = [4, 5, 6, 7, 8, 9, 10]
+console.log("A " , array); //A  [ 4, 5, 6, 7, 8, 9, 10 ]
 
 let slicearr = array.slice(1,3);
 console.log(slicearr); //[ 5, 6 ]  It will print value  of 1st and 2nd position will not print 3rd.
