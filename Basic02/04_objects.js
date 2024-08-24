@@ -8,6 +8,6 @@ const myDetails = {
     age: 20 , 
     location: "BBSR" ,
     email: "ananya@.com" ,
-    isLoggedIn: false
-
+    isLoggedIn: false , 
+    lastLoginDays: ["Monday" , "Thursday"]
 }
