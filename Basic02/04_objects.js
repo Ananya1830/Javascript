@@ -24,7 +24,7 @@ console.log(myDetails["full name"]); // Here we can't access it with .
 
 console.log(myDetails[mySym]);
 
-myDetails.email =  "ananya18@.com" // Can change value like this
+myDetails.email =  "ananya181@.com" // Can change value like this
 Object.freeze(myDetails) // We can freeze our datas by using this
 myDetails.email = "ananya@google.com" // We freeze our data already so it will not change now
 
