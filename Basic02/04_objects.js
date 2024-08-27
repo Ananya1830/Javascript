@@ -30,3 +30,12 @@ myDetails.email = "ananya@google.com" // We freeze our data already so it will n
 
 console.log(myDetails);
 
+
+
+const mySym1 = Symbol("mynameis")
+const me = {
+    [mySym]:"mynameis",
+    msg:"hello",
+    lang:"English"
+}
+
