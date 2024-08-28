@@ -16,6 +16,7 @@ const myDetails = {
     lastLoginDays: ["Monday" , "Thursday"],
 
     [mySym] : "myKey1" // In object we declare symbol like this
+    // For symbol we have to give square bracket
 }
 console.log(myDetails.email); // Mostly we don't use this 
 console.log(myDetails["email"]);
@@ -25,17 +26,25 @@ console.log(myDetails["full name"]); // Here we can't access it with .
 console.log(myDetails[mySym]);
 
 myDetails.email =  "ananya181@.com" // Can change value like this
-Object.freeze(myDetails) // We can freeze our datas by using this
+// Object.freeze(myDetails) // We can freeze our datas by using this
 myDetails.email = "ananya@google.com" // We freeze our data already so it will not change now
 
 console.log(myDetails);
 
-
-
-const mySym1 = Symbol("mynameis")
-const me = {
-    [mySym]:"mynameis",
-    msg:"hello",
-    lang:"English"
+myDetails.greeting = function (){
+    console.log("Hello");  // Hello
 }
 
+console.log(myDetails.greeting()); // console.log(myDetails.greeting());
+// It will show like this and will shows error becoz still it is not a function
+
+console.log(myDetails.greeting); // [Function (anonymous)]
+// Function will not execute only reference will come
+
+
+myDetails.greeting2 = function (){
+    console.log(`Hello user, ${this.name}`);  // Hello user, Ananya
+    // this likh ke . lagane ke baad object ke andar jitne properties hoga will shows those
+}
+
+console.log(myDetails.greeting2());
