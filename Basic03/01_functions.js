@@ -21,16 +21,16 @@ myName;  // It is called as the reference of the function.
 myName(); // Ananya
           // Mohapatra
 
-function addTwoNum(num1 , num2){ /* In javascript the types given 9n the parameter does not need to have any kind of 
-                               mention of datatypes. */
+function addTwoNum(num1 , num2){ /* In javascript the types given 9n the parameter does not need to have any 
+                                 kind of mention of datatypes. */
     
     console.log(num1 + num2);  // NaN, because of their no value of a parameter or called as an argument.
 }  
 addTwoNum ()  // NaN
-addTwoNum ( 18 , 10 )  // 11
-addTwoNum (8 , "6")  // 56
-addTwoNum (7 , "a")  //5a
-addTwoNum (100 , null)  // 5
+addTwoNum ( 18 , 10 )  // 28
+addTwoNum (8 , "6")  //  86
+addTwoNum (7 , "a")  // 7a
+addTwoNum (100 , null)  //  100
 
 //Here the input given in the functions are called parameters.
 // And the values we give while executing the functions are called arguments,
