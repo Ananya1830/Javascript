@@ -88,12 +88,12 @@ function myFunction_three(){
 
 // var, let, const all have a global scope if they get declared outside the function scope.
 
-var x = 18 ;
+var x = 12 ;
 let y = 55 ;
-const z = 69 ;
+const z = 70 ;
 
 function math(){
     console.log(x+y+z);
 }
-console.log(math()); // 142
+console.log(math()); // 137
  
