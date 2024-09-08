@@ -1,5 +1,7 @@
 // SCOPE
 
+// This {} is scope when it comes in function or if else it came as scope.
+
 // Scope determines the accessibility (visibility) of variables.
 
 // Javascript has 3 types of scopes those are Block scope, Function scope, and global scope.
