@@ -48,3 +48,20 @@ myDetails.greeting2 = function (){
 }
 
 console.log(myDetails.greeting2());
+
+
+// Object literals
+const myDetails = {
+    name: "Ananya" , // system name ko as a "name" string leta hai
+    "full name" : "Ananya Mohapatra" ,
+    age: 20 , 
+    location: "BBSR" ,
+    email: "ananya@.com" ,
+    isLoggedIn: false , 
+    lastLoginDays: ["Monday" , "Thursday"],
+
+    [mySym] : "myKey1" // In object we declare symbol like this
+    // For symbol we have to give square bracket
+}
+console.log(myDetails.email); // Mostly we don't use this 
+console.log(myDetails["email"]);
