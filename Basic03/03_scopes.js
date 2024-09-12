@@ -14,7 +14,8 @@
 
 // Block Scope
 
-//  variables declared inside a {} can't be accessed from outside of the block by using these keywords as let and const.
+/* Variables declared inside a {} can't be accessed from outside of the block by using these keywords 
+as let and const. */
 
 
 {
