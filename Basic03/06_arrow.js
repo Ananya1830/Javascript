@@ -81,6 +81,7 @@ function ai(){
     console.log(this);
 }
 ai()
+
 /*
 <ref *1> Object [global] {
   global: [Circular *1],
