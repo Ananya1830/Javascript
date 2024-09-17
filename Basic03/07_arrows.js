@@ -32,3 +32,23 @@ const hello = () => "Hello World"
 console.log(hello()); // Hello World
 
 //  Note: This works only if the function has only one statement.
+
+
+// if we have only one parameter in the function we can pass that without paranthesis.
+
+const yo = greet => {
+    return `${greet} , Ananya.`
+}
+console.log(yo("Hiii")); // Hiii , Ananya.
+
+
+
+// Implicit arrow function
+
+// It is an arrow fucntion where "return" keyword is removed with the curly braces and paranthesis are used instead of them.
+
+// ex 
+
+const me = () => (console.log("helloo everyone"))
+
+console.log(me()); // helloo everyone
