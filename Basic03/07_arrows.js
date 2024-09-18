@@ -49,6 +49,6 @@ console.log(yo("Hiii")); // Hiii , Ananya.
 
 // ex 
 
-const me = () => (console.log("helloo everyone"))
+const me = () => (console.log("hello everyone"))
 
-console.log(me()); // helloo everyone
+console.log(me()); // hello everyone
