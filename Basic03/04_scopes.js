@@ -42,6 +42,7 @@ function myFunction2() {
 
 if (true) {
     let blockScoped = "I'm block-scoped!";
+    
     console.log(blockScoped); // Accessible here
   }
   
