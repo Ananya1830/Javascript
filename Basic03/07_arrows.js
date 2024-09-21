@@ -79,6 +79,7 @@ const obj2 = (number) => {
 {
 useris: "Ananya"
 }}
+
 console.log(obj2(18)); // undefined
 
 // Let us have look what happens when we use "this" keyword in an arrow fucntion in multiple scenarios.
