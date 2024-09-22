@@ -100,3 +100,9 @@ const myy = () => {
 
 // Everytime we use "this" keyword in the function wheather it is general function or arrow funtion it doesnot 
 // show the current conext.
+
+
+const my = () => {
+    let user = "Virat Kohli"
+    console.log(this); // undefined
+}
