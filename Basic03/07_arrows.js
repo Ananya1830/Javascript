@@ -104,5 +104,6 @@ const myy = () => {
 
 const my = () => {
     let user = "Virat Kohli"
+    
     console.log(this); // undefined
 }
