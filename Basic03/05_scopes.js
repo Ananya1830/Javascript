@@ -61,6 +61,12 @@ function addOne(num){
 
  console.log(addOne(5)); // 6 
 
+ function addOne2(num){
+  return num+1
+}
+
+console.log(addOne2(100)); // 101
+
  // What if we declare the function as it is and call or execute the function above the function?
 
  console.log(addOne(5)); // 6
