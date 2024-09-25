@@ -86,6 +86,7 @@ console.log(obj2(18)); // undefined
 
 const tea = () => {
     let username = "Ananyaa"
+    
     console.log(`${this.username} , how are uh?`);
 }
 
