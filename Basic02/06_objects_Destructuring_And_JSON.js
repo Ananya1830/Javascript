@@ -50,11 +50,11 @@ structure. */
 
 {
 
-    "Name":"Ananya",
+    "Name": "Ananya",
 
-    "coursename":"JS",
+    "coursename": "JS",
 
-    "price":"free"
+    "price": "free"
 
 }
 

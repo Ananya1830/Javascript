@@ -87,4 +87,3 @@ console.log(addOne2(100)); // 101
 // This code will through an error as we are storing a function in a variable.
 // If we do so the variable becomes or is also called an expression.
 // Although it is an expression it is also a variable and we know variables are not recognized before its declaration.
-
