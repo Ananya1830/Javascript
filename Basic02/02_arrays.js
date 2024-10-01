@@ -20,7 +20,9 @@ console.log(allHeros);
 // It concats the two arrays and create a new array.
 
 
+
 const allNewHeros = [...marvelHeros , ...dcHeros]
+
 console.log(allNewHeros);
 // This is called as the spread operator , between spread and concat ,
 // spread operator is prefer to use because it can make the elements of arrays individual.
