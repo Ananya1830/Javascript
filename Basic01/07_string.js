@@ -10,6 +10,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)
 const gameName = new String('ananya-mo-com')
 
 console.log(gameName[4]);
+
 console.log(gameName.__proto__);
 
 
