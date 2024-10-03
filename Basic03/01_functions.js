@@ -16,10 +16,11 @@ variable, then the() {} syntax, and in the {} we mention what is gonna be execut
 
 myName;  // It is called as the reference of the function.
 
-// But when we want to call or execute the function we have to write
+// But when we want to call or execute the function we have to write mean add ()
 
 myName(); // Ananya
           // Mohapatra
+
 
 function addTwoNum(num1 , num2){ /* When we make definition of function is known as parameters. Here num1 and
                                     num2 are parameters */
@@ -67,10 +68,10 @@ console.log("Result:" , result ); // undefined
  const result2 = addTwoNumber(10 , 6)
 
 console.log("Result:" , result2 );  // Result: 16 
-// Here it will returned nothing becoz we haven't asked it to but wii print,,, Result: 16
+// Here it will returned nothing becoz we haven't asked it to but will print,,, Result: 16
 
-/* And one imp thing here if we will console.log something after the return.result it will execute becoz bydefault
-there is a rule of function that after return nothing will execute but before return it will execute. */
+/* And one imp thing here if we will console.log something after the return.result it will execute becoz 
+bydefault there is a rule of function that after return nothing will execute but before return it will execute. */
 
 
 
@@ -117,7 +118,7 @@ function loginUserMessage(username){
 
 
 // But here is an another professional way
-/* will use !(not) symbol before username it convers true into false or false into true */
+/* will use !(not) symbol before username it converts true into false or false into true */
 
 function loginUserMessage(username){
     if(!username){
