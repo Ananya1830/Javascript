@@ -43,8 +43,8 @@ console.log(handleObject(user));  // Username is Ananya and price is 499
 
 handleObject({
     username: "ANANYA",
-    prices: 7999
-})  // Username is ANANYA and price is 7999
+    prices: 79999
+})  // Username is ANANYA and price is 79999
 
 
 
