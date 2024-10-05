@@ -7,6 +7,7 @@ function calculateCartPrice(...num1){
     return num1
 } // Here it is rest operator
 
+
 /* Here we will use rest operator we will use ...num1 (...) is rest and spread operator and it depends upon its
 use cases. */
 
