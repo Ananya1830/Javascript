@@ -114,6 +114,7 @@ ai()
 
 function heii(){
     let user = "Ananya"
+    
     console.log(this.user);
 
 }
