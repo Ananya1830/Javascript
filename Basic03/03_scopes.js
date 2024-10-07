@@ -73,6 +73,7 @@ function myFunction(){
 
 function myFunction_two(){
     let carr = "Mercedes"
+    
 }
 //console.log(carr); // carr is not defined.
 
