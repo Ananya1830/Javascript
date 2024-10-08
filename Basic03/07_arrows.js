@@ -12,6 +12,8 @@
 
 // EX>>>>>
 
+// Syntax of arrow function =  () => {}
+
 const add = (n1,n2) => {
     return n1+n2
 }
@@ -49,6 +51,9 @@ console.log(yo("Hiii")); // Hiii , Ananya.
 // It is an arrow fucntion where "return" keyword is removed with the curly braces and paranthesis are used instead of them.
 
 // ex 
+
+/* Here we used (parentheses) so we don't need to use return,,,, if we used {curly braces} then we have to use
+  return keyword */
 
 const me = () => (console.log("hello everyone"))
 
