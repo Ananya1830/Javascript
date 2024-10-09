@@ -19,6 +19,7 @@ one();
 
 
 // Can write this it will not print if we have not use ; at the end of above line to end
+
 ( () => {
     console.log(`DB CONNECTED TWO `);
 } )();
