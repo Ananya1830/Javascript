@@ -59,7 +59,9 @@ let monthName = 4
 
 
 
-  const month = "march"
+  // Here for string the cases should have to be also string
+
+const month = "march"
 
 switch (month) {
     case "jan":
