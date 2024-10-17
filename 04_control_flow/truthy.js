@@ -107,6 +107,7 @@ console.log(val1);
 
 
 // Terniary Operator
+
 // Short hand notation of checking if else
 
 // SYNTAX :  condition ? true : false
