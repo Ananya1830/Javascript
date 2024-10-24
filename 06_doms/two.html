@@ -38,11 +38,27 @@
     console.log(parent.lastElementChild);
     // <div class="day">Thursday</div>
 
+
     // We can also jump to any parent element by its targeted child element
-    const dayOne =  document.querySelector('.day1')
+    const dayOne = document.querySelector('.day')
     console.log(dayOne);
+
     console.log(dayOne.parentElement);
-    
-    
+    /* <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day" style="color: purple;">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div> */
+
+    console.log(dayOne.nextElementSibling);
+    // <div class="day" style="color: purple;">Tuesday</div>
+
+
+    // childNodes
+    console.log("NODES: " , parent.childNodes);
+    // It shows the are 9 child nodes we have coded only 4 child nodes which are the days.
+    // But in the dom tree every ting every seen or unseen element is counted in nodeList.
+
 </script>
 </html>
