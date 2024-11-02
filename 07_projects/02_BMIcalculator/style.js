@@ -26,6 +26,7 @@ theForm.addEventListener("submit" , (e)=> {
     //for showing the result
 
     if(bmi < 18.6){
+        
         res.innerHTML = `<span>${bmi} and you are underweight.</span>`
     } else if ( bmi >= 18.6 && bmi <= 24.9){
         res.innerHTML = `<span>${bmi} and your weight is in normal range.</span>`
