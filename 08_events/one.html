@@ -36,6 +36,23 @@
     //Writing onclick="" in an html tag itself  for a click event may not be a very good approach when the scale is large.
     // It is not recommended
 
+    // 2nd approach 
+
+    //document.getElementById("owl").onclick = ()=> {
+     //   alert("owl is clicked")
+    //}
+    // This approach can also be accepted but the event listener features not only provides the click events but also different events.
+    // So this approach is also not recommended.
+
+    // 3rd or best approach 
+
+    // In this approach we have to target the id as always.
+    // and with event listener () we give the type of event and another parameter as false which is by default.
+   /*document.getElementById("owl").addEventListener("click", (e)=> {
+         alert("owl is clicked again")
+    },false)*/
+
+    //We also get an event object
      
 </script>
 </html>
