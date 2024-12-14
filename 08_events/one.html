@@ -52,8 +52,24 @@
          alert("owl is clicked again")
     },false)*/
 
-    
     //We also get an event object
      
+    document.getElementById("owl").addEventListener("click", (e)=> {
+         alert("owl is clicked again")
+         console.log(e);
+         console.log(e.currentTarget);
+         console.log(e.target);
+         // we get the browser event as well as environmental events
+         console.log(e.clientX);
+         console.log(e.clientY);
+         console.log(e.screenX);
+         console.log(e.screenY);
+         console.log(e);
+         
+        
+         //We get the browser event as well as environmental events
+
+    },false)
+
 </script>
 </html>
