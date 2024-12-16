@@ -19,13 +19,14 @@
     </div>  
 </body>
 <script>
-      // As we know javascript is a sequential running language. Every sequence is run after another sequence.
+     // As we know javascript is a sequential running language. Every sequence is run one after another.
 
     //some events happen on the browser which are evoked after any kind of activity.
 
     //These activity is known as the events.
 
-    //The activity can be of many types as mouse hovering, mouse clicked, double clicked, keyboard's value clicked, drag and drop, etc.
+// The activity can be of many types as mouse hovering, mouse clicked, double clicked, keyboard's value 
+// clicked, drag and drop, etc.
      
 
     // let us target the <li> with the id of "owl"  
@@ -36,13 +37,16 @@
     //Writing onclick="" in an html tag itself  for a click event may not be a very good approach when the scale is large.
     // It is not recommended
 
+
     // 2nd approach 
 
-    //document.getElementById("owl").onclick = ()=> {
+    /*document.getElementById("owl").onclick = ()=> {
      //   alert("owl is clicked")
-    //}
-    // This approach can also be accepted but the event listener features not only provides the click events but also different events.
+    } */
+    // This approach can also be accepted but the event listener features not only provides the click events 
+    // but also different events.
     // So this approach is also not recommended.
+
 
     // 3rd or best approach 
 
@@ -54,7 +58,7 @@
 
     //We also get an event object
      
-    document.getElementById("owl").addEventListener("click", (e)=> {
+    document.getElementById("owl").addEventListener("click", (e)=> { //D
          alert("owl is clicked again")
          console.log(e);
          console.log(e.currentTarget);
@@ -65,11 +69,19 @@
          console.log(e.screenX);
          console.log(e.screenY);
          console.log(e);
-         
-        
-         //We get the browser event as well as environmental events
 
     },false)
 
+ // topics should be studied about the below event object's topic
+
+// type, timestamp, defaultPrevented, target, toElement , srcElement, currentTarget, clientX, clientY, screenX, ScreenY 
+
+// e.type
+
+console.log(e.type); // click
+// It returns the result as a string and the result would be the type of event.
+
+// e.timestamp
+console.log(e.timeStamp); // 1423.45444 (in milli second)
 </script>
 </html>
