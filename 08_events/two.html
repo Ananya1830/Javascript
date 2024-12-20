@@ -18,6 +18,33 @@
             <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
         </ul>
    </div>
+   </body>
+   <script>
+    // So how can we remove the image if it gets clicked
+    
    
-</body>
+    document.getElementById("images").addEventListener("click",(e)=> {
+        console.log( e.target.parentNode);
+        const removeingTheparent = e.target.parentNode
+         removeingTheparent.remove()
+
+        //There is another because if there are multiple types of HTML tags are being children of one parent node
+        removeingTheparent.parentNode.removeChild(removeingTheparent)
+    })
+  
+  
+
+    // if we don't want to remove every tag of the same parent while getting clicked.
+    // Then we can choose the below approaches with some conditionals.
+
+    document.getElementById("images").addEventListener("click",(e)=> {
+        console.log( e.target.parentNode);
+        console.log(e.target.tagName);// IMG
+        if(e.target.tagName === "IMG"){
+            let removeingTheparent = e.target.parentNode
+         removeingTheparent.remove()
+        }
+        // Now if we click on images they will be deleted but if we click the Google's link then it will not get deleted.
+    })
+</script>
 </html>
