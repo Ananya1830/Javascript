@@ -10,16 +10,16 @@ Pura remove nhi hua hai bss kuch old code likha jata hai
 */
 
 accountCity = "Bhubaneswarr" 
-// In js hum variable ko bina (var) use krr ke bhi likh skte hai but it's not a good practice
+// In js hum variable ko bina (var) and (let) use krr ke bhi likh skte hai but it's not a good practice
 
 let accountState; 
-/* Let agar hume variable malum nhi hai aur hum isse bss declare krr ke chod dete hai toh 
-iska value "undefined" aayega
+/* Let agar hume variable ki value malum nhi hai aur hum isse bss declare krr ke chod dete hai toh 
+iska value "undefined" maanti hai javascript
 */
 //js mai semicolon compulsory nhi hai hum usse na deke bhi chod skte hai..
 
 
-// accountId = 2 // not allowed if already one account is existing
+// accountId = 2 // not allowed if already one account is existing because we used (const) keyword there
 
 accountEmail = "an@ananya.com"
 accountPassword = "76874479"
@@ -27,3 +27,6 @@ accountCity = "Bengaluru"
 
 console.log(accountId);
 console.table([accountId, accountEmail, accountPassword, accountCity]);
+
+// Don't need to use console.log again and again for accesing the values we can use console.log([]) , square 
+// bracket ke andar hum sb likh skte hai..
