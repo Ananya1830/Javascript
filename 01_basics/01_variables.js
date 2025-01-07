@@ -9,7 +9,7 @@ accoundPassword dia toh woh uss se replace ho jata tha.
 Pura remove nhi hua hai bss kuch old code likha jata hai
 */
 
-accountCity = "Bhubaneswar" 
+accountCity = "Bhubaneswarr" 
 // In js hum variable ko bina (var) use krr ke bhi likh skte hai but it's not a good practice
 
 let accountState; 
