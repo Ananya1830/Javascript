@@ -1,5 +1,6 @@
 "use strict"; // treat all js code as newer version
-// ek baar "use strict" likhne se pura code new version mai hi aayega we can't change after that
+// ek baar "use strict" likhne se pura code new version mai hi aayega we can't change after that but now adays
+// we don't need to write that
 
 // alert (4+4) // we are using nodejs , not browser . Can't use it in nodejs.
 // alert is use for arithematic operations
