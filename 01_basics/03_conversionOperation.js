@@ -76,7 +76,7 @@ console.log(booleanLoggedIn)
 
 //STRING
 
-let someNumber = 69
+let someNumber = 68
 
 let stringNumber = String(someNumber)
 console.log(stringNumber);
