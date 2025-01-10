@@ -4,7 +4,7 @@ console.log(negValue);
 
 console.log(2+2); // 4
 console.log(2-2); // 0
-console.log(2*2); // 4
+console.log(2*3); // 6
 console.log(2**3); // 12
 console.log(2/3); // 0.6666666666666666
 console.log(2%3); // 2
