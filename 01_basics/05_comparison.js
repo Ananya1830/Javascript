@@ -4,6 +4,12 @@ console.log(4 < 2);
 console.log(4 == 4);
 console.log(4 != 2);
 
+console.log(4 > 8);
+console.log(4 >= 2);
+console.log(4 < 7);
+console.log(4 == 4);
+console.log(4 != 2);
+
 
 // Two different data types
 // js automatically converts string into numbers 
