@@ -4,13 +4,6 @@ console.log(4 < 2);
 console.log(4 == 4);
 console.log(4 != 2);
 
-console.log(4 > 8);
-console.log(4 >= 2);
-console.log(4 < 7);
-console.log(4 == 4);
-console.log(4 != 2);
-
-
 // Two different data types
 // js automatically converts string into numbers 
 console.log("2">1); // true
@@ -32,7 +25,7 @@ console.log(undefined < 0); // false
 
 
 // === [It also check the data type]
-console.log("2" === 2); // [It will not convert]
+console.log("2" === 2); // false  ,,,,[It will not convert]
 
 
 // In == string will be converted in a number but in === it will not.

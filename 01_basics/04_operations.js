@@ -22,7 +22,7 @@ console.log(str3);
 console.log("2" + 3); // 23
 console.log(3 + "2"); // 32
 console.log("2" + 4 + 6); // 246 [If string came first then all digit will be perform as strings]
-console.log(3 + 2 + "4"); // 54 [First conversion will occur and then string will be same]
+console.log(3 + 2 + 3 + "4"); // 84 [First conversion will occur and then string will be same]
 
 
 //TRICKY
