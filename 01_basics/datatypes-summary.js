@@ -13,17 +13,18 @@ const scoreValue = 100.3
 
 const isLoggedIn = false // Boolean
 const outsideTemp = null // null is 0
-let userEmail; // We can write undefined or we can leave it like this
+let userEmail; // We can write undefined or we can leave it like this it will show undefined
 
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
 // Both values are same but the results will be different
 
-console.log(id === anotherId); // False even the values are same
+console.log(id === anotherId); // False ,,,, even the values are same
 
 
-const bigNumer = 7646798764567645n // n lagane se it will be bigint
+const bigNumer = 7646798764567645n 
+// If we write n after the number it will converted to bigInt
 
 
 // Reference types (Non primitive)
@@ -38,6 +39,8 @@ let myObj = {
     name:"Ananya",
     age:20,
 }  
+// whatever inside {} is object
+
 
 // Function
 const myFunction = function () {
@@ -45,5 +48,5 @@ const myFunction = function () {
 }
 
 
-console.log(typeof bigNumber); // shows type
-console.log(typeof myFunction); // type is function
+console.log(typeof bigNumber); // undefined ,,,, shows type
+console.log(typeof myFunction); // function
