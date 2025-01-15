@@ -1,9 +1,9 @@
 // Two types
 
-// Stack (Primitive) 
+// Stack (Primitive type) 
 //  When we use stack memory we'll get a copy of the varible has been used.
 
-// Heap (Non_primitive)
+// Heap (Non_primitive type)
 // We get the reference of the original value whatever we want to change we have to change from its original value.
 
 
